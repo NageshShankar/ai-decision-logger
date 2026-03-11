@@ -75,5 +75,10 @@ http://localhost:3000
 ![image alt](https://github.com/NageshShankar/ai-decision-logger/blob/main/Screenshot%202026-03-11%20124626.png?raw=true)
 ![image alt](https://github.com/NageshShankar/ai-decision-logger/blob/main/Screenshot%202026-03-11%20131202.png?raw=true)
 ![image alt](https://github.com/NageshShankar/ai-decision-logger/blob/main/Screenshot%202026-03-11%20131223.png?raw=true)
-![image alt]
+![image alt](https://github.com/NageshShankar/ai-decision-logger/blob/main/Screenshot%202026-03-11%20131237.png?raw=true)
+
+## Live Demo
+
+Live URL:
+https://ai-decision-logger.vercel.app/
 
