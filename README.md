@@ -1,7 +1,7 @@
 ## AI Decision Logger
 ## Short Description
 
-AI Decision Logger is a full-stack web application that helps users record important decisions, track outcomes, and analyze them using AI. The platform allows users to organize decisions, receive AI-generated feedback, and identify patterns to improve future decision-making.
+AI Decision Logger is a Ai-full-stack web application that helps users record important decisions, track outcomes, and analyze them using AI. The platform allows users to organize decisions, receive AI-generated feedback, and identify patterns to improve future decision-making.
 
 ## Features
 
