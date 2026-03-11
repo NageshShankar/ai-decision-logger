@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## AI Decision Logger
+## Short Description
 
-## Getting Started
+AI Decision Logger is a full-stack web application that helps users record important decisions, track outcomes, and analyze them using AI. The platform allows users to organize decisions, receive AI-generated feedback, and identify patterns to improve future decision-making.
 
-First, run the development server:
+## Features
 
-```bash
+User authentication with Supabase (Email/Password + Google Sign-In)
+Create, edit, and manage personal decisions
+Categorize decisions and track outcomes
+AI-powered feedback on decisions
+AI pattern analysis to identify trends in past decisions
+General AI question assistant
+Secure user-specific data using Row Level Security (RLS)
+Responsive dashboard UI
+
+## Tech Stack
+
+Frontend
+
+Next.js
+React
+Tailwind CSS
+
+## Backend
+
+Supabase
+PostgreSQL
+
+## AI Integration
+Hugging Face Inference API
+
+## Deployment
+Vercel
+
+## Architecture
+Frontend (Next.js + Tailwind)
+        |
+        | API Requests
+        v
+Next.js API Routes
+        |
+        |---- Supabase (Auth + Database)
+        |
+        |---- Hugging Face API (AI Responses)
+
+## Flow:
+
+User logs in via Supabase authentication.
+Decisions are stored in PostgreSQL through Supabase.
+AI requests are processed through Hugging Face API.
+The dashboard displays insights and analytics.
+
+## Installation
+1. Clone the repository
+git clone https://github.com/yourname/ai-decision-logger.git
+cd ai-decision-logger
+2. Install dependencies
+npm install
+3. Setup environment variables
+
+Create .env.local
+
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+HF_API_KEY=
+4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ScreenShots
+Login page
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/b8e61206-3bb0-423e-acfc-a7e84e60632a" />
