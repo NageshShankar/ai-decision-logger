@@ -72,5 +72,4 @@ Open:
 http://localhost:3000
 
 ## ScreenShots
-Login page
-<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/b8e61206-3bb0-423e-acfc-a7e84e60632a" />
+
