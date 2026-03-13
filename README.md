@@ -18,20 +18,20 @@ Responsive dashboard UI
 
 Frontend
 
-Next.js
-React
-Tailwind CSS
+Next.js,
+React,
+Tailwind CSS,
 
 ## Backend
 
-Supabase
-PostgreSQL
+Supabase,
+PostgreSQL,
 
 ## AI Integration
-Hugging Face Inference API
+Hugging Face Inference API,
 
 ## Deployment
-Vercel
+Vercel,
 
 ## Architecture
 Frontend (Next.js + Tailwind)
