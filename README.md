@@ -53,7 +53,7 @@ The dashboard displays insights and analytics.
 
 ## Installation
 1. Clone the repository
-git clone [https://github.com/yourname/ai-decision-logger.git](https://github.com/NageshShankar/ai-decision-logger)
+git clone https://github.com/NageshShankar/ai-decision-logger
 cd ai-decision-logger
 2. Install dependencies
 npm install
